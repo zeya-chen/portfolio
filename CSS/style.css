@@ -1,3 +1,46 @@
-
 /* import fonts from fonts.css file*/
-@import url(./fonts.css)
+@import url(./fonts.css);
+
+/* start navigation */
+
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font-family: 'Montserrat', cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: rgb(158, 158, 158);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+  background: rgb(34, 195, 178);
+  background: linear-gradient(
+    45deg,
+    rgba(34, 195, 178, 1) 0%,
+    rgba(155, 45, 253, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: rgb(34, 195, 178);
+  background: linear-gradient(
+    45deg,
+    rgba(34, 195, 178, 1) 0%,
+    rgba(155, 45, 253, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation */
