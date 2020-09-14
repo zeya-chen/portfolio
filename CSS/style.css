@@ -161,6 +161,37 @@
 }
 
 /* End Banner Area */
+
+/* Project Area */
+.project-area {
+  padding: 4rem 0;
+  font-family: 'Montserrat', cursive;
+  font-weight: 500;
+}
+
+.project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 16px/130px;
+  font-family: 'Montserrat', cursive;
+  font-weight: 500;
+}
+
+.project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.project-area .grid .my-project > title h4 {
+  font: normal 700 25px/12px;
+  font-family: 'Montserrat', cursive;
+}
+
+.project-area .grid{
+  padding: 2rem 0;
+}
+
 img {
   width: 100%;
 }
+
+/* End Project Area */
